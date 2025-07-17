@@ -1,0 +1,107 @@
+/* PlayerNames Page Styles */
+.players-page {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 600px;
+}
+
+.player-input-group {
+    margin-bottom: 2rem;
+}
+
+.player-input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.player-input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.3s;
+}
+
+.player-input:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.continue-button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background: white;
+    color: #1a2a6c;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.continue-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* GameMode Page Styles */
+.game-mode-page {
+    text-align: center;
+}
+
+.game-modes {
+    display: flex;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.mode-card {
+    flex: 1;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.mode-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.mode-card.selected {
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid white;
+}
+
+.mode-card h2 {
+    margin-top: 0;
+}
+
+.mode-card p {
+    opacity: 0.9;
+}
+
+.start-button {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background: white;
+    color: #1a2a6c;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.start-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
